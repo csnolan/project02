@@ -1,0 +1,54 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  background-color: rgb(62, 62, 66);
+}
+body {
+  background-color: rgb(62, 62, 66);
+}
+
+.container {
+  max-width: 30vw;
+}
+
+.task-item {
+  border: 4px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-title {
+    font-size: 1.5rem;
+}
+
+.task-desc {
+    font-size: 1.25rem;
+}
+
+.task-meta {
+    font-weight: bold;
+}
+/
+
+.task-priority, .task-status, .task-desc{
+  border-top: 3px solid #ccc; 
+  padding-top: 5px;
+}
+
+
+.task-details > div,
+.task-meta > div,
+.task-actions > button {
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.task-title-complete {
+  text-decoration: line-through;
+}
